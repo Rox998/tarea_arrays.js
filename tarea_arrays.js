@@ -13,7 +13,7 @@ console.log(procesarPedido(pedido));
 // 2. Iteración de Arrays en Javascript
 // 2.1 Crea una función llamada `sumarPares` que reciba un array de números.
 // Debes iterar sobre el array, sumar todos los números pares y devolver la suma.
-function sumarPares() {
+function sumarPares(numeros) {
     let suma = 0;
     for (let i = 0; i < numeros.length; i++) {
         if (numeros[i] % 2 === 0) {
@@ -23,7 +23,7 @@ function sumarPares() {
     return suma;
 };
 let numeros = [1, 2, 3, 4, 5, 6];
-console.log(sumarPares(numeros))
+console.log(sumarPares(numeros));
 // 3. Buscar en Arrays
 // 3.1 Escribe una función llamada `palabrasTerminanConA` que reciba un array de palabras y devuelva `true` si todas terminan con "a", o `false` si al menos una no lo hace.
 function palabrasTerminanConA(palabras) {
